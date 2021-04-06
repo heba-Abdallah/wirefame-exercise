@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: Arial;
+    padding: 10px;
+}
+header{
+    background: rgb(63, 61, 61);
+    padding :20px;
+}
+header img{
+    padding-left: 40px;
+}
+nav{
+    float: right;
+    margin-bottom: 20px;
+    
+}
+nav ul{
+    position: relative;
+}
+nav ul li {
+    position: static;
+    display: inline-block;
+    padding: 20px;
+}
+a:hover {
+    color: yellow;
+  }
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(119, 109, 109);
+    padding: 80px;
+
+}
+#hero {
+    margin-bottom: 30px;
+    width: 97%;
+    text-align: center;
+}
+#heroh{
+width: 1250px;
+}
+
+#image{
+    position: relative;
+    margin-bottom: 30px;
+    clear: both;
+    display: table;
+    text-align: center;
+    width: 1260px;
+}
+.column {
+    position: static;
+    display: inline-block;
+    margin: 30px;
+    padding-left: 90px;
+   width: 356px;
+}
+#hi{
+    position: relative;
+    align-items: center;
+    width: 1300px;
+  
+}
+#right{
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    padding: 10px;
+    padding-top: 0;
+    width: 40%;
+}
+#left {
+    position: static;
+    float: right;
+    width: 50%;
+    height: 500px;
+    font-size: 30px;
+    padding-left: 20px;
+}
+#left p{
+    text-align: justify;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+footer p{
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(63, 61, 61);
+    color: rgb(119, 109, 109);
+    margin-top: 20px;
+}
